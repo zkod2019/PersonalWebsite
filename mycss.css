@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Newsreader Display";
+  src: url("NewsreaderDisplay-Regular.woff") format("woff");
+}
+body {
+  padding: 2rem 5rem;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.navlist {
+  font-family: "Newsreader Display";
+  font-size: 2rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.aboutpg {
+  display: flex;
+}
+
+.about {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mypic {
+  width: 50%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.achv {
+}
+
+.contact {
+  display: block;
+  margin: auto;
+  width: anything under 100%;
+}
+/* .class #id for element just use its name */
