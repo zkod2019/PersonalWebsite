@@ -2,8 +2,23 @@
   font-family: "Newsreader Display";
   src: url("NewsreaderDisplay-Regular.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("InterDisplay-Regular.woff") format("woff");
+}
+
 body {
   padding: 2rem 5rem;
+  font-family: "Inter Display";
+  font-size: 1.1rem;
+  line-height: 200%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.active {
+  color: #aaaaaa;
 }
 
 nav {
@@ -11,6 +26,7 @@ nav {
   top: 0px;
   background-color: white;
   border-bottom: 1px solid #aaaaaa;
+  margin-bottom: 2rem;
 }
 
 .navlist {
@@ -20,9 +36,8 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 0 2rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 4rem;
+  padding-bottom: 2rem;
 }
 
 .navlist a {
@@ -46,7 +61,7 @@ nav {
 }
 
 .mypic {
-  width: 50%;
+  width: 60%;
 }
 
 img {
@@ -61,4 +76,6 @@ img {
   margin: auto;
   width: anything under 100%;
 }
+/* @media(min-width:800px){
+} */
 /* .class #id for element just use its name */
