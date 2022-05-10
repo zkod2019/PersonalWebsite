@@ -68,13 +68,20 @@ img {
   max-width: 100%;
 }
 
+.projpic {
+  width: 40%;
+}
+table {
+  max-width: 500px;
+  margin: auto;
+}
+
 .achv {
 }
 
 .contact {
-  display: block;
+  max-width: 500px;
   margin: auto;
-  width: anything under 100%;
 }
 /* @media(min-width:800px){
 } */
